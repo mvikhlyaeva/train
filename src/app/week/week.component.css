@@ -1,0 +1,38 @@
+.day{
+    display: flex;
+    background-color: rgba(136, 181, 240, 0.575);
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-content: space-between;
+    width: 200px;
+    flex-direction: row;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+}
+.content{
+    background-color: rgba(136, 181, 240, 0.575);
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 90px 0;
+    display: flex;
+    width: 100%;
+    border-radius: 5px;
+}
+h1{
+    width: 55%;
+    justify-content: start;
+    text-align: right;
+}
+.head{
+    width: 100%;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: #ffe;
+}
+a:hover{
+    color: rgb(90, 90, 61);
+}
