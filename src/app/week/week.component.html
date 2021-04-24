@@ -1,0 +1,16 @@
+<div class ="content">
+    <div class="head">
+        <h1>Weather</h1>
+    <img src="http://s1.iconbird.com/ico/0912/FreeweatherconditionsIcons/w128h128134703144028.png" alt="">
+    </div>
+    
+    <div class="day" *ngFor ="let weather of weatherWeek">
+        <h2>{{weather.day}} {{weather.mouth}}</h2>
+        <h2>+{{weather.temp}}°</h2>
+        <a routerLink='/day/{{weather.day}}'>
+        <span>Сlick here to learn more</span>
+        </a>
+        
+    </div>
+</div>
+
